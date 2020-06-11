@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (5.2.1)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - EmptyDataSet-Swift (5.0.0)
+  - FRadioPlayer (0.1.20)
+  - IQKeyboardManagerSwift (6.5.5)
+  - MarqueeLabel (4.0.2)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - UIColor_Hex_Swift (5.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - EmptyDataSet-Swift
+  - FRadioPlayer
+  - IQKeyboardManagerSwift
+  - MarqueeLabel
+  - MBProgressHUD
+  - SDWebImage
+  - UIColor_Hex_Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - EmptyDataSet-Swift
+    - FRadioPlayer
+    - IQKeyboardManagerSwift
+    - MarqueeLabel
+    - MBProgressHUD
+    - SDWebImage
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  FRadioPlayer: 5c35ba963b69663a4f7d34405c09847d7aebbfcc
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
+
+PODFILE CHECKSUM: bf4ccba2b34a047cf9943e05103b2c95a96ead3a
+
+COCOAPODS: 1.8.4

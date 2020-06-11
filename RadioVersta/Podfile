@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RadioVersta' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for РадиоВерста
+  
+  pod 'IQKeyboardManagerSwift'
+  pod 'MBProgressHUD'
+  pod 'UIColor_Hex_Swift'
+  pod 'Alamofire'
+  pod 'AlamofireNetworkActivityIndicator'
+  pod 'EmptyDataSet-Swift'
+  pod 'SDWebImage'
+  pod 'FRadioPlayer'
+  pod 'MarqueeLabel'
+
+  
+
+
+end

@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723D734A41DF4CB10872D0DF /* Pods_RadioVersta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2E44166B02E262CECFEB2A /* Pods_RadioVersta.framework */; };
+		AD8F76BC24923AB600245392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76BB24923AB600245392 /* AppDelegate.swift */; };
+		AD8F76BE24923AB600245392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76BD24923AB600245392 /* SceneDelegate.swift */; };
+		AD8F76C324923AB600245392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8F76C124923AB600245392 /* Main.storyboard */; };
+		AD8F76C524923AB900245392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F76C424923AB900245392 /* Assets.xcassets */; };
+		AD8F76C824923AB900245392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8F76C624923AB900245392 /* LaunchScreen.storyboard */; };
+		AD8F76D224923B4A00245392 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76CF24923B4A00245392 /* SplashScreenViewController.swift */; };
+		AD8F76D324923B4A00245392 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8F76D024923B4A00245392 /* appstore.png */; };
+		AD8F76D424923B4A00245392 /* playstore.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8F76D124923B4A00245392 /* playstore.png */; };
+		AD8F76D724923D5800245392 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76D624923D5800245392 /* PlayerViewController.swift */; };
+		AD8F76DA24925A8A00245392 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76D924925A8A00245392 /* API.swift */; };
+		AD8F76DD24925B3A00245392 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76DC24925B3A00245392 /* NewsViewController.swift */; };
+		AD8F76DF24925B4A00245392 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76DE24925B4A00245392 /* NewsViewModel.swift */; };
+		AD8F76E124925B5400245392 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76E024925B5400245392 /* NewsModel.swift */; };
+		AD8F76E324925B7D00245392 /* RadioVerstaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76E224925B7D00245392 /* RadioVerstaViewController.swift */; };
+		AD8F76E82492656000245392 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76E72492656000245392 /* DetailViewController.swift */; };
+		AD8F76EA2492657000245392 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76E92492657000245392 /* DetailViewModel.swift */; };
+		AD8F76EC249267A700245392 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8F76EB249267A700245392 /* WebKit.framework */; };
+		AD8F76EF24926B3E00245392 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76EE24926B3E00245392 /* EventViewController.swift */; };
+		AD8F76F124926B4B00245392 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76F024926B4B00245392 /* EventViewModel.swift */; };
+		AD8F76F324926B5200245392 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F76F224926B5200245392 /* EventModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BBE3024DBCC3043CBE4C1D2 /* Pods-RadioVersta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioVersta.release.xcconfig"; path = "Target Support Files/Pods-RadioVersta/Pods-RadioVersta.release.xcconfig"; sourceTree = "<group>"; };
+		A43CD812058A00BDDB760F65 /* Pods-RadioVersta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioVersta.debug.xcconfig"; path = "Target Support Files/Pods-RadioVersta/Pods-RadioVersta.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8F76B824923AB600245392 /* РадиоВерста.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "РадиоВерста.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8F76BB24923AB600245392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD8F76BD24923AB600245392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD8F76C224923AB600245392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD8F76C424923AB900245392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD8F76C724923AB900245392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD8F76C924923AB900245392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8F76CF24923B4A00245392 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		AD8F76D024923B4A00245392 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		AD8F76D124923B4A00245392 /* playstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playstore.png; sourceTree = "<group>"; };
+		AD8F76D624923D5800245392 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		AD8F76D924925A8A00245392 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AD8F76DC24925B3A00245392 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		AD8F76DE24925B4A00245392 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		AD8F76E024925B5400245392 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		AD8F76E224925B7D00245392 /* RadioVerstaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioVerstaViewController.swift; sourceTree = "<group>"; };
+		AD8F76E72492656000245392 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD8F76E92492657000245392 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		AD8F76EB249267A700245392 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AD8F76EE24926B3E00245392 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		AD8F76F024926B4B00245392 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		AD8F76F224926B5200245392 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		CF2E44166B02E262CECFEB2A /* Pods_RadioVersta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioVersta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD8F76B524923AB600245392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F76EC249267A700245392 /* WebKit.framework in Frameworks */,
+				723D734A41DF4CB10872D0DF /* Pods_RadioVersta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282A8331A99E35C05D0B0AE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A43CD812058A00BDDB760F65 /* Pods-RadioVersta.debug.xcconfig */,
+				0BBE3024DBCC3043CBE4C1D2 /* Pods-RadioVersta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD8F76AF24923AB600245392 = {
+			isa = PBXGroup;
+			children = (
+				AD8F76BA24923AB600245392 /* RadioVersta */,
+				AD8F76B924923AB600245392 /* Products */,
+				282A8331A99E35C05D0B0AE4 /* Pods */,
+				FA0DB566A28F6F21E6DB9A65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD8F76B924923AB600245392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76B824923AB600245392 /* РадиоВерста.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD8F76BA24923AB600245392 /* RadioVersta */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76E224925B7D00245392 /* RadioVerstaViewController.swift */,
+				AD8F76ED24926B2C00245392 /* Event */,
+				AD8F76DB24925B2C00245392 /* News */,
+				AD8F76E42492654900245392 /* DetailView */,
+				AD8F76D524923D4700245392 /* Player */,
+				AD8F76BB24923AB600245392 /* AppDelegate.swift */,
+				AD8F76BD24923AB600245392 /* SceneDelegate.swift */,
+				AD8F76D024923B4A00245392 /* appstore.png */,
+				AD8F76D124923B4A00245392 /* playstore.png */,
+				AD8F76CF24923B4A00245392 /* SplashScreenViewController.swift */,
+				AD8F76C124923AB600245392 /* Main.storyboard */,
+				AD8F76C424923AB900245392 /* Assets.xcassets */,
+				AD8F76C624923AB900245392 /* LaunchScreen.storyboard */,
+				AD8F76D824925A7D00245392 /* SupportFiles */,
+				AD8F76C924923AB900245392 /* Info.plist */,
+			);
+			path = RadioVersta;
+			sourceTree = "<group>";
+		};
+		AD8F76D524923D4700245392 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76D624923D5800245392 /* PlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		AD8F76D824925A7D00245392 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76D924925A8A00245392 /* API.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		AD8F76DB24925B2C00245392 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76DC24925B3A00245392 /* NewsViewController.swift */,
+				AD8F76DE24925B4A00245392 /* NewsViewModel.swift */,
+				AD8F76E024925B5400245392 /* NewsModel.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		AD8F76E42492654900245392 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76E72492656000245392 /* DetailViewController.swift */,
+				AD8F76E92492657000245392 /* DetailViewModel.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		AD8F76ED24926B2C00245392 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76EE24926B3E00245392 /* EventViewController.swift */,
+				AD8F76F024926B4B00245392 /* EventViewModel.swift */,
+				AD8F76F224926B5200245392 /* EventModel.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		FA0DB566A28F6F21E6DB9A65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76EB249267A700245392 /* WebKit.framework */,
+				CF2E44166B02E262CECFEB2A /* Pods_RadioVersta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD8F76B724923AB600245392 /* RadioVersta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD8F76CC24923AB900245392 /* Build configuration list for PBXNativeTarget "RadioVersta" */;
+			buildPhases = (
+				774877AD1BD87C4F7C24756E /* [CP] Check Pods Manifest.lock */,
+				AD8F76B424923AB600245392 /* Sources */,
+				AD8F76B524923AB600245392 /* Frameworks */,
+				AD8F76B624923AB600245392 /* Resources */,
+				B2298049FE7354BBC111E2FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioVersta;
+			productName = RadioVersta;
+			productReference = AD8F76B824923AB600245392 /* РадиоВерста.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD8F76B024923AB600245392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = WolfStudio;
+				TargetAttributes = {
+					AD8F76B724923AB600245392 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AD8F76B324923AB600245392 /* Build configuration list for PBXProject "RadioVersta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD8F76AF24923AB600245392;
+			productRefGroup = AD8F76B924923AB600245392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD8F76B724923AB600245392 /* RadioVersta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD8F76B624923AB600245392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F76C824923AB900245392 /* LaunchScreen.storyboard in Resources */,
+				AD8F76D324923B4A00245392 /* appstore.png in Resources */,
+				AD8F76C524923AB900245392 /* Assets.xcassets in Resources */,
+				AD8F76C324923AB600245392 /* Main.storyboard in Resources */,
+				AD8F76D424923B4A00245392 /* playstore.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		774877AD1BD87C4F7C24756E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioVersta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2298049FE7354BBC111E2FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioVersta/Pods-RadioVersta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RadioVersta/Pods-RadioVersta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RadioVersta/Pods-RadioVersta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8F76B424923AB600245392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F76E124925B5400245392 /* NewsModel.swift in Sources */,
+				AD8F76BC24923AB600245392 /* AppDelegate.swift in Sources */,
+				AD8F76D724923D5800245392 /* PlayerViewController.swift in Sources */,
+				AD8F76E324925B7D00245392 /* RadioVerstaViewController.swift in Sources */,
+				AD8F76F324926B5200245392 /* EventModel.swift in Sources */,
+				AD8F76D224923B4A00245392 /* SplashScreenViewController.swift in Sources */,
+				AD8F76EF24926B3E00245392 /* EventViewController.swift in Sources */,
+				AD8F76DD24925B3A00245392 /* NewsViewController.swift in Sources */,
+				AD8F76DF24925B4A00245392 /* NewsViewModel.swift in Sources */,
+				AD8F76BE24923AB600245392 /* SceneDelegate.swift in Sources */,
+				AD8F76E82492656000245392 /* DetailViewController.swift in Sources */,
+				AD8F76F124926B4B00245392 /* EventViewModel.swift in Sources */,
+				AD8F76EA2492657000245392 /* DetailViewModel.swift in Sources */,
+				AD8F76DA24925A8A00245392 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD8F76C124923AB600245392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8F76C224923AB600245392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD8F76C624923AB900245392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD8F76C724923AB900245392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD8F76CA24923AB900245392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD8F76CB24923AB900245392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD8F76CD24923AB900245392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43CD812058A00BDDB760F65 /* Pods-RadioVersta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXBM79BZJG;
+				INFOPLIST_FILE = RadioVersta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfstudio.RadioVersta;
+				PRODUCT_NAME = "РадиоВерста";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD8F76CE24923AB900245392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBE3024DBCC3043CBE4C1D2 /* Pods-RadioVersta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXBM79BZJG;
+				INFOPLIST_FILE = RadioVersta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfstudio.RadioVersta;
+				PRODUCT_NAME = "РадиоВерста";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD8F76B324923AB600245392 /* Build configuration list for PBXProject "RadioVersta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8F76CA24923AB900245392 /* Debug */,
+				AD8F76CB24923AB900245392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD8F76CC24923AB900245392 /* Build configuration list for PBXNativeTarget "RadioVersta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8F76CD24923AB900245392 /* Debug */,
+				AD8F76CE24923AB900245392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD8F76B024923AB600245392 /* Project object */;
+}
